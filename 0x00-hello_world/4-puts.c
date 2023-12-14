@@ -1,4 +1,4 @@
 #include <stdio.h>
 /**
- * main a C program that prints exactly "Programming is like building a multilingual puzzle
- * Return: 0 
+ * main - A program that prints a line with put fucnction
+ * Return: 0

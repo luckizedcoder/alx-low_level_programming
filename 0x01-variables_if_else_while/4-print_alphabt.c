@@ -6,17 +6,17 @@
  */
 int main(void)
 {
-    char c;
+	char c;
 
-    c = 'a';
-    while (c <= 'z')
-    {
-        if ((c != 'q' && c != 'c') && c <= 'z')
-            putchar(c);
-        c++;
-    }
+	c = 'a';
+	while (c <= 'z')
+	{
+		if (c != 'q' && c != 'e') // Changed conditions to exclude 'q' and 'e'
+			putchar(c);
+		c++;
+	}
 
-    putchar('\n');
+	putchar('\n');
 
-    return (0);
+	return (0);
 }
